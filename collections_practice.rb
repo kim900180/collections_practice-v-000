@@ -62,4 +62,5 @@ def sum_array(array)
     sum = sum + array[i].to_i
     i += 1
   end
+  return sum
 end

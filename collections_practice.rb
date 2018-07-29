@@ -64,3 +64,6 @@ def sum_array(array)
   end
   return sum
 end
+
+def add_a(array)
+end

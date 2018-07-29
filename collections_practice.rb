@@ -71,8 +71,6 @@ def add_s(array)
     if item != array[1]
       item = item[item.length - 1] + "s"
       new_array << item
-    else
-      item = item
     end
   end
   return new_array

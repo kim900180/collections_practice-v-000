@@ -48,8 +48,9 @@ end
 def find_a(array)
   a_array = []
   array.each do |item|
-    item[0] == "a"
-    a_array << item
+    if item[0] == "a"
+      a_array << item
+    end
   end
   return a_array
 end

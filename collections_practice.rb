@@ -25,3 +25,10 @@ def sort_array_char_count(array)
     end
   end
 end
+
+def swap_elements(array)
+  temp_element_1 = array[1]
+  temp_element_2 = array[2]
+  array[1] = temp_element_2
+  array[2] = temp_element_1
+end

@@ -70,7 +70,6 @@ def add_s(array)
   array.each do |item|
     if item != array[1]
       item = item + "s"
-      new_array << item
     end
   end
   return new_array

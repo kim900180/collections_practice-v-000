@@ -72,5 +72,5 @@ def add_s(array)
       item = item + "s"
     end
   end
-  return new_array
+  return array
 end

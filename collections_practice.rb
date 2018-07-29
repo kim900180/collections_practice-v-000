@@ -66,4 +66,14 @@ def sum_array(array)
 end
 
 def add_a(array)
+  new_array = []
+  array.each do |item|
+    if item != array[1]
+      item = item[item.length - 1] + "s"
+      new_array << item
+    else
+      item = item
+    end
+  end
+  return new_array
 end

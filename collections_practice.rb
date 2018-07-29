@@ -65,7 +65,7 @@ def sum_array(array)
   return sum
 end
 
-def add_a(array)
+def add_s(array)
   new_array = []
   array.each do |item|
     if item != array[1]

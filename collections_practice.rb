@@ -46,8 +46,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find? do |item|
-    item[0] == all?
+  array.find do |item|
+    item[0] == "a"
     return item
   end
 end
